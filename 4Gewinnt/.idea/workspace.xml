@@ -27,8 +27,8 @@
       <file leaf-file-name="Spielfeld.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Spielfeld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+            <state relative-caret-position="256">
+              <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
               <folding>
                 <element signature="e#120#121#0" expanded="true" />
                 <element signature="e#163#164#0" expanded="true" />
@@ -206,17 +206,11 @@
       <option name="presentableId" value="Default" />
       <updated>1542712665696</updated>
       <workItem from="1542712667305" duration="4212000" />
-      <workItem from="1542717242109" duration="4807000" />
+      <workItem from="1542717242109" duration="5103000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2018.11.20 at 14h 43m 45s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests - 2018.11.20 at 14h 47m 50s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Tests - 2018.11.20 at 14h 48m 10s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
@@ -241,9 +235,15 @@
     <history-entry file="Tests - 2018.11.20 at 14h 56m 32s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Tests - 2018.11.20 at 14h 59m 58s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2018.11.20 at 15h 01m 28s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9019000" />
+    <option name="totallyTimeSpent" value="9315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="12" width="1571" height="995" extended-state="0" />
@@ -387,8 +387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Spielfeld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+        <state relative-caret-position="256">
+          <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
           <folding>
             <element signature="e#120#121#0" expanded="true" />
             <element signature="e#163#164#0" expanded="true" />
