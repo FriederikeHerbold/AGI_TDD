@@ -43,15 +43,15 @@ public class Spielfeld implements FourWinsLogic {
 
     private Ergebniss prüfeAufSieg(Spielstein farbe, int column) {
 
-        if (prüfeHorizontal(column, farbe) && farbe == Spielstein.ROT) {
+        if (prüfeHorizontal(farbe) && farbe == Spielstein.ROT) {
             return Ergebniss.SIEGER_ROT;
         }
         return Ergebniss.SPIEL_LÄUFT;
     }
 
-    private boolean prüfeHorizontal(int column, Spielstein farbe) {
+    private boolean prüfeHorizontal(Spielstein farbe) {
         boolean win = false;
-            for (int i = 0; i < MAX_COLUMS-WIN_LENGTH+1; i++) {
+        for (int i = 0; i < MAX_COLUMS - WIN_LENGTH + 1; i++) {
             boolean winIntern = true;
             for (int y = i; y < WIN_LENGTH + i; y++) {
                 winIntern &= feld[y][5] == farbe;

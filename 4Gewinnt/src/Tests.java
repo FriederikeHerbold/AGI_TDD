@@ -31,4 +31,17 @@ public class Tests {
         assertEquals("SPIEL_LÄUFT", spielfeld.throwChip(Spielstein.ROT, 6));
         assertEquals("SIEGER_ROT", spielfeld.throwChip(Spielstein.ROT, 7));
     }
+
+    @Test
+    public void gewinnHorizontalROT4() {
+        FourWinsLogic spielfeld = new Spielfeld();
+        spielfeld.throwChip(Spielstein.GELB, 4);
+        spielfeld.throwChip(Spielstein.GELB, 5);
+        spielfeld.throwChip(Spielstein.GELB, 6);
+        spielfeld.throwChip(Spielstein.GELB, 7);
+        assertEquals("SPIEL_LÄUFT", spielfeld.throwChip(Spielstein.ROT, 4));
+        assertEquals("SPIEL_LÄUFT", spielfeld.throwChip(Spielstein.ROT, 5));
+        assertEquals("SPIEL_LÄUFT", spielfeld.throwChip(Spielstein.ROT, 6));
+        assertEquals("SIEGER_ROT", spielfeld.throwChip(Spielstein.ROT, 7));
+    }
 }
