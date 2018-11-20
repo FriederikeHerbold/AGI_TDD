@@ -1,5 +1,7 @@
 public class Spielfeld implements FourWinsLogic {
 
+    public static final int MAX_COLUMS = 7;
+    public static final int WIN_LENGTH = 4;
     Spielstein[][] feld;
     int zeile = -1;
 
@@ -32,8 +34,8 @@ public class Spielfeld implements FourWinsLogic {
     }
 
     private void findeZeile(int spalte) {
-        for (int i = 5; i > 0; i--) {
-            if (feld[spalte][i] == null) {
+        for (int i = 5; i >= 0; i--) {
+            if (feld[spalte][i] == null && zeile == -1) {
                 zeile = i;
             }
         }
@@ -41,18 +43,22 @@ public class Spielfeld implements FourWinsLogic {
 
     private Ergebniss prüfeAufSieg(Spielstein farbe, int column) {
 
-        if(pruefeHorizontal(column, farbe) && farbe == Spielstein.ROT){
+        if (prüfeHorizontal(column, farbe) && farbe == Spielstein.ROT) {
             return Ergebniss.SIEGER_ROT;
         }
         return Ergebniss.SPIEL_LÄUFT;
     }
 
-    private boolean pruefeHorizontal(int column, Spielstein farbe){
-        int anzahl = 0;
-        if(feld[0][5]==farbe && feld[1][5]==farbe && feld[2][5]==farbe && feld[3][5]==farbe){
-            return true;
-        } else {
-            return false;
+    private boolean prüfeHorizontal(int column, Spielstein farbe) {
+        boolean win = false;
+            for (int i = 0; i < MAX_COLUMS-WIN_LENGTH+1; i++) {
+            boolean winIntern = true;
+            for (int y = i; y < WIN_LENGTH + i; y++) {
+                winIntern &= feld[y][5] == farbe;
+            }
+            win |= winIntern;
         }
+        return win;
     }
+
 }
