@@ -4,7 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class Tests {
+public class FourWinTest {
     FourWinsLogic spielfeld;
 
     @Before
@@ -14,6 +14,13 @@ public class Tests {
 
     @Test
     public void gewinnHorizontalROTUntenLinks() {
+       /* spielfeld = new Spielfeld(
+                "       ",
+                "       ",
+                "       ",
+                "       ",
+                "       ",
+                "xxx    ");*/
         assertEquals("SPIEL_LÄUFT", spielfeld.throwChip(Spielstein.ROT, 1));
         assertEquals("SPIEL_LÄUFT", spielfeld.throwChip(Spielstein.ROT, 2));
         assertEquals("SPIEL_LÄUFT", spielfeld.throwChip(Spielstein.ROT, 3));

@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Tests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tests.java">
+      <file leaf-file-name="FourWinTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FourWinTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="68" column="68" lean-forward="true" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
+            <state relative-caret-position="237">
+              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#224#225#0" expanded="true" />
@@ -26,11 +26,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Spielfeld.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TicTacToeTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spielfeld.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Spielfeld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="61" column="53" lean-forward="true" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
+            <state relative-caret-position="51">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+              <folding>
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#2084#2085#0" expanded="true" />
+                <element signature="e#2122#2123#0" expanded="true" />
+                <element signature="e#2466#2467#0" expanded="true" />
+                <element signature="e#2514#2515#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spielvariante.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Spielvariante.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" selection-start-column="12" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicTacToeLogic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToeLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -57,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/FourWinsLogic.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -67,6 +107,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="Enum" />
       </list>
@@ -82,10 +123,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/Spieler.java" />
         <option value="$PROJECT_DIR$/src/Spielstein.java" />
-        <option value="$PROJECT_DIR$/src/FourWinsLogic.java" />
         <option value="$PROJECT_DIR$/src/Ergebniss.java" />
+        <option value="$PROJECT_DIR$/src/FourWinsTest.java" />
         <option value="$PROJECT_DIR$/src/Tests.java" />
+        <option value="$PROJECT_DIR$/src/FourWinsLogic.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToeLogic.java" />
+        <option value="$PROJECT_DIR$/src/Spielvariante.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToeTest.java" />
         <option value="$PROJECT_DIR$/src/Spielfeld.java" />
+        <option value="$PROJECT_DIR$/src/FourWinTest.java" />
       </list>
     </option>
   </component>
@@ -100,15 +146,15 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-14" />
-    <option name="width" value="2760" />
-    <option name="height" value="1766" />
+    <option name="width" value="2762" />
+    <option name="height" value="1768" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -126,12 +172,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -147,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tests">
+  <component name="RunManager" selected="JUnit.FourWinTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="4Gewinnt" />
@@ -155,17 +202,34 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
-    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FourWinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="4Gewinnt" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" />
+      <option name="MAIN_CLASS_NAME" value="FourWinTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TicTacToeTest" type="JUnit" factoryName="JUnit">
+      <module name="4Gewinnt" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TicTacToeTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -188,12 +252,13 @@
       <method />
     </configuration>
     <list>
+      <item itemvalue="JUnit.TicTacToeTest" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.Tests" />
+      <item itemvalue="JUnit.FourWinTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tests" />
+        <item itemvalue="JUnit.FourWinTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -213,71 +278,72 @@
       <workItem from="1542788217896" duration="163000" />
       <workItem from="1543227976475" duration="4938000" />
       <workItem from="1543238335901" duration="44000" />
-      <workItem from="1543259346587" duration="2563000" />
+      <workItem from="1543259346587" duration="2787000" />
+      <workItem from="1543315553973" duration="5369000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2018.11.26 at 12h 44m 50s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="TicTacToeTest - 2018.11.27 at 12h 52m 11s.xml">
+      <configuration name="TicTacToeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.11.26 at 12h 45m 48s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="TicTacToeTest - 2018.11.27 at 12h 54m 08s.xml">
+      <configuration name="TicTacToeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.11.26 at 12h 46m 36s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="TicTacToeTest - 2018.11.27 at 12h 54m 22s.xml">
+      <configuration name="TicTacToeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.11.26 at 12h 48m 01s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="TicTacToeTest - 2018.11.27 at 12h 54m 56s.xml">
+      <configuration name="TicTacToeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.11.26 at 20h 17m 13s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="TicTacToeTest - 2018.11.27 at 13h 01m 05s.xml">
+      <configuration name="TicTacToeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.11.26 at 20h 23m 06s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="TicTacToeTest - 2018.11.27 at 13h 01m 10s.xml">
+      <configuration name="TicTacToeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.11.26 at 20h 24m 23s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="TicTacToeTest - 2018.11.27 at 13h 07m 51s.xml">
+      <configuration name="TicTacToeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.11.26 at 20h 26m 24s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="TicTacToeTest - 2018.11.27 at 13h 22m 11s.xml">
+      <configuration name="TicTacToeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.11.26 at 20h 26m 50s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="FourWinTest - 2018.11.27 at 13h 22m 19s.xml">
+      <configuration name="FourWinTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2018.11.26 at 20h 39m 05s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="FourWinTest - 2018.11.27 at 13h 23m 49s.xml">
+      <configuration name="FourWinTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17568000" />
+    <option name="totallyTimeSpent" value="23161000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="12" width="1577" height="999" extended-state="0" />
+    <frame x="-8" y="0" width="1578" height="1010" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32921347" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32890365" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5006394" side_tool="true" weight="0.43632337" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44170403" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49936062" visible="true" weight="0.43632337" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832216" visible="true" weight="0.21689059" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832216" visible="true" weight="0.21675192" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.5016779" side_tool="true" weight="0.2177264" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -298,7 +364,55 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tests.java">
+    <entry file="file://$PROJECT_DIR$/src/FourWinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="68" lean-forward="true" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ergebniss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Spielstein.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourWinsLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Spielfeld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+          <folding>
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#2084#2085#0" expanded="true" />
+            <element signature="e#2122#2123#0" expanded="true" />
+            <element signature="e#2466#2467#0" expanded="true" />
+            <element signature="e#2514#2515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourWinTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2329">
           <caret line="143" column="7" selection-start-line="143" selection-start-column="7" selection-end-line="143" selection-end-column="7" />
@@ -338,7 +452,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests.java">
+    <entry file="file://$PROJECT_DIR$/src/FourWinTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2431">
           <caret line="143" column="7" selection-start-line="143" selection-start-column="7" selection-end-line="143" selection-end-column="7" />
@@ -378,7 +492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests.java">
+    <entry file="file://$PROJECT_DIR$/src/FourWinTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
@@ -418,7 +532,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests.java">
+    <entry file="file://$PROJECT_DIR$/src/FourWinTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
@@ -459,7 +573,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Tests.java">
+    <entry file="file://$PROJECT_DIR$/src/FourWinTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
@@ -506,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FourWinsLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ergebniss.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -521,22 +628,63 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Tests.java">
+    <entry file="file://$PROJECT_DIR$/src/Spielvariante.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="68" column="68" lean-forward="true" selection-start-line="68" selection-start-column="68" selection-end-line="68" selection-end-column="68" />
+        <state>
+          <caret column="25" selection-start-column="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToeLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Spielfeld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="61" column="53" lean-forward="true" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
+        <state relative-caret-position="51">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding>
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#2084#2085#0" expanded="true" />
+            <element signature="e#2122#2123#0" expanded="true" />
+            <element signature="e#2466#2467#0" expanded="true" />
+            <element signature="e#2514#2515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourWinsLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourWinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
